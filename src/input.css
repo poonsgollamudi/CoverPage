@@ -1,0 +1,58 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  background: url(../images/bg.png) left bottom repeat,
+    url(../images/girl.png) right top no-repeat;
+  background-color: #113946;
+  font-family: "Playpen Sans", cursive;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  body {
+    background-color: #113946;
+    font-family: "Playpen Sans", cursive;
+    background: #113946;
+  }
+  .heading {
+    color: #fff2d8;
+    font-size: 2rem;
+  }
+}
+
+.divheading {
+  text-align: center;
+  padding: 7rem 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #fff2d8;
+  font-size: 2rem;
+}
+.divbuttons {
+  text-align: center;
+  display: flex;
+  padding: 1rem 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.btn {
+  background-color: #ead7bb;
+  color: #113946;
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  overflow: auto;
+  font-size: 2rem;
+  font-family: "Playpen Sans", cursive;
+}
+a {
+  text-decoration: none;
+  color: #113946;
+}
